@@ -28,3 +28,12 @@ Nmap Topport ile ilk 10 yoğun portları tarama
 nmap --top-port 10 192.168.1.1
 ```
 
+</br>
+Nmap ile açık port taraması
+</br>
+
+```
+nmap  192.168.1.24 -Pn
+```
+
+Not: Filtered gelmişse hiçbir bilgi yok anlamına gelmektedir. Ya port kapalıdır ya da firewall çalışmaktadır.
