@@ -3,7 +3,7 @@
 </br>
 </br>
  
-![nmap](https://github.com/musatoktas/white-notebok/blob/master/nmap.PNG?raw=true "NMAP ekran görüntüsü")
+![nmap](https://github.com/musatoktas/white-notebook/blob/master/img/nmap.PNG?raw=true "NMAP ekran görüntüsü")
 
 </br>
 IP'lerin sonlarını değiştirerek taratmak
