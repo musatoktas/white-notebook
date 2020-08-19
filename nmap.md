@@ -37,3 +37,16 @@ nmap  192.168.1.24 -Pn
 ```
 
 Not: Filtered gelmişse hiçbir bilgi yok anlamına gelmektedir. Ya port kapalıdır ya da firewall çalışmaktadır.
+
+</br>
+SN ile ping taraması ardına dosyaya kayıt</br>
+
+```
+nmap -sn 192.168.1.1/24 > grep report | awk "{print $6}" > eviplist
+nmap -sS -iL eviplist
+```
+</br>
+Açıklamalı tarama</br>
+```
+nmap -sS --reason www.heraklet.com
+```
